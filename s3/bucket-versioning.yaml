@@ -1,0 +1,13 @@
+---
+apiVersion: s3.aws.upbound.io/v1beta1
+kind: BucketVersioning
+metadata:
+  name: bisharsh-bucket
+spec:
+  forProvider:
+    bucket: bisharsh-bucket
+    region: eu-north-1
+    versioningConfiguration:
+      - status: Enabled
+  # providerConfigRef:
+  #   name: default
