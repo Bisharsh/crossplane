@@ -18,6 +18,8 @@ spec:
           }
         ]
       }
+  providerConfigRef:
+    name: default  
 ---
 apiVersion: iam.aws.upbound.io/v1beta1
 kind: RolePolicyAttachment
@@ -25,5 +27,8 @@ metadata:
   name: dev-demo-eks-cluster-amazon-eks-cluster-policy
 spec:
   forProvider:
-    role: dev-demo-eks-cluster
+    roleRef:
+      name: dev-demo-eks-cluster
     policyArn: arn:aws:iam::aws:policy/AmazonEKSClusterPolicy
+  providerConfigRef:
+    name: default 
