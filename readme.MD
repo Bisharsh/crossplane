@@ -50,10 +50,6 @@ This project provisions a complete AWS infrastructure stack — including an S3 
     └── vpc.yaml
 ```
 
-## 📸 Screenshots
-
-![VPC Architecture Screenshot](./assets/vpc-screenshot.png)
-
 ## 🚀 Getting Started
 
 1. Set up Minikube and Helm
