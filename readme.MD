@@ -1,4 +1,3 @@
-```
 # AWS Infrastructure Provisioning with Crossplane and Kubernetes
 
 This project provisions a complete AWS infrastructure stack — including an S3 bucket, VPC, and EKS cluster — using [Crossplane](https://crossplane.io/) from within a local Kubernetes cluster running on Minikube.
@@ -81,4 +80,3 @@ This project helped me:
 ## 💬 Feedback
 
 Feel free to open issues or connect if you're working on something similar!
-```
